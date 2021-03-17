@@ -8,11 +8,11 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 
 - **WebAssembly Code Explorer** | [online tool](https://wasdk.github.io/wasmcodeexplorer/)  
 
-- **wasm-opt --print** |  
+- **wasm-opt --print** | part of `binaryen`: [repo](https://github.com/WebAssembly/binaryen)  
 
-- **wasm-objdump** |  
+- **wasm-objdump** | part of `wabt`: [repo](https://github.com/WebAssembly/wabt)  
 
-- **wasm-nm** |  
+- **wasm-nm** | [repo](https://github.com/fitzgen/wasm-nm)  
 
 
 ## Static analysis
@@ -26,19 +26,19 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 
 ## Manipulating (optimization, transformation, instrumentation)
 
-- **wasm-opt** |  
+- **wasm-opt** | part of `binaryen`: [repo](https://github.com/WebAssembly/binaryen)  
 
-- **wasm-gc** |  
+- **wasm-snip** | [repo](https://github.com/rustwasm/wasm-snip)  
+`wasm-snip` replaces a WebAssembly function's body with an `unreachable`.
 
-- **wasm-snip** |  
+- **wasm-meter** | [npm](https://www.npmjs.org/package/wasm-metering), [repo](https://github.com/ewasm/wasm-metering)  
+Injects metering into webassembly binaries. The metering counts computation time for a given program in units of `gas`.
 
-- **wasm-meter** |  
-
-- **walrus** |  
+- **walrus** | [repo](https://github.com/rustwasm/walrus)  
 A rust library for performing WebAssembly transformations.
 
-**wasm2json, json2wasm** | [npm](https://www.npmjs.com/package/wasm-json-toolkit), [repo](https://github.com/ewasm/wasm-json-toolkit)  
-
+- **wasm2json, json2wasm** | [npm](https://www.npmjs.com/package/wasm-json-toolkit), [repo](https://github.com/ewasm/wasm-json-toolkit)  
+A small toolkit for converting wasm binaries into json and back. Very helpful for creating your own, custom transformations.
 
 ## Dynamic analysis, profiling
 

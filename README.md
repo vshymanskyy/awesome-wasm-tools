@@ -38,21 +38,21 @@ Symbolical execution of WebAssembly (WASM) binaries.
 **walrus** |
 A rust library for performing WebAssembly transformations.
 
-**wasm2json, json2wasm**
+**wasm2json, json2wasm** | [npm](https://www.npmjs.com/package/wasm-json-toolkit), [repository](https://github.com/ewasm/wasm-json-toolkit)
 
 
-## Dynamic analysis
+## Dynamic analysis, profiling
 
-**wasm3-trace** - 
+- **wasm3-trace** | [wapm](https://wapm.io/package/vshymanskyy/wasm3), [repository](https://github.com/wasm3/wasm3)  
+  Structured, seamless tracing of arbitrary WebAssembly/WASI execution.
 
-**Wasabi** - a dynamic analysis framework for WebAssembly.
-[home](http://wasabi.software-lab.org/)
-
+- **Wasabi** | [home](http://wasabi.software-lab.org/), [repository](https://github.com/danleh/wasabi)  
+  "WebAssembly analysis using binary instrumentation", a dynamic analysis framework.
 
 ## Other
 
-https://pengowray.github.io/wasm-ops/
-https://webassembly.sh/
-https://github.com/bytecodealliance/wasm-tools
+- https://pengowray.github.io/wasm-ops/
+- https://webassembly.sh/
+- https://github.com/bytecodealliance/wasm-tools
 
 

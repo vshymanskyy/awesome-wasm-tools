@@ -31,6 +31,9 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 
 - **wasm-opt** | part of [`Binaryen`](https://github.com/WebAssembly/binaryen)  
 
+- **wizer** | [repo](https://github.com/bytecodealliance/wizer)  
+  Don't wait for your Wasm module to initialize itself, pre-initialize it! Wizer instantiates your WebAssembly module, executes its initialization function, and then snapshots the initialized state out into a new WebAssembly module. 
+
 - **wasm-snip** | [repo](https://github.com/rustwasm/wasm-snip)  
 `wasm-snip` replaces a WebAssembly function's body with an `unreachable`.
 
@@ -58,8 +61,6 @@ A small toolkit for converting wasm binaries into json and back. Very helpful fo
 
 ## Other
 
-- https://pengowray.github.io/wasm-ops/
-- https://webassembly.sh/
-- https://github.com/bytecodealliance/wasm-tools
+- **WebAssembly Opcode Table** | [online tool](https://pengowray.github.io/wasm-ops/)  
 
-
+- **Webassembly.sh** | [online tool](https://webassembly.sh)  

@@ -11,14 +11,14 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
   A simple binary explorer with neat binary code highlighting.
 
 - **wasm-opt** | part of [`Binaryen`](https://github.com/WebAssembly/binaryen)  
-  - `wasm-opt --print test.wasm`  
-    Color output of s-expression format.
-  - `wasm-opt --print-call-graph test.wasm | dot -Tpng -o callgraph.png`  
-    Plot the callgraph using `Graphviz`.
-  - `wasm-opt --dwarfdump test.wasm`  
-    Dump DWARF debug info sections.
-  - `wasm-opt --func-metrics test.wasm`  
-    Print function metrics.
+  - Color output of s-expression format:  
+    `wasm-opt --print test.wasm`
+  - Plot the callgraph using `Graphviz`:  
+    `wasm-opt --print-call-graph test.wasm | dot -Tpng -o callgraph.png`
+  - Dump DWARF debug info sections:  
+    `wasm-opt --dwarfdump test.wasm`
+  - Print function metrics:  
+    `wasm-opt --func-metrics test.wasm`
 
 - **wasm-decompile** | part of [`WABT`](https://github.com/WebAssembly/wabt), [article](https://v8.dev/blog/wasm-decompile)  
   `wasm-decompile` decompiles a wasm binary into readable code. It generates output that tries to look like a "very average programming language" while still staying close to the Wasm it represents.
@@ -44,10 +44,10 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 ## Manipulating (optimization, transformation, instrumentation)
 
 - **wasm-opt** | part of [`Binaryen`](https://github.com/WebAssembly/binaryen)  
-  - `wasm-opt test.wasm --asyncify -O3 -o asyncified.wasm`  
-    Transform binary for asynchronous execution. Read more in [this article](https://kripken.github.io/blog/wasm/2019/07/16/asyncify.html).
-  - `wasm-opt test.wasm --instrument-memory --instrument-locals --log-execution -o instrumetred.wasm`  
-    Instrument binary for dynamic execution tracing.
+  - Transform binary for asynchronous execution (read more in [this article](https://kripken.github.io/blog/wasm/2019/07/16/asyncify.html)):  
+    `wasm-opt test.wasm --asyncify -O3 -o asyncified.wasm`
+  - Instrument binary for dynamic execution tracing:  
+    `wasm-opt test.wasm --instrument-memory --instrument-locals --log-execution -o instrumetred.wasm`
 
 - **wizer** | [repo](https://github.com/bytecodealliance/wizer)  
   Don't wait for your Wasm module to initialize itself, pre-initialize it! Wizer instantiates your WebAssembly module, executes its initialization function, and then snapshots the initialized state out into a new WebAssembly module.

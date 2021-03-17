@@ -8,9 +8,9 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 
 - **WebAssembly Code Explorer** | [online tool](https://wasdk.github.io/wasmcodeexplorer/)  
 
-- **wasm-opt --print** | part of `binaryen`: [repo](https://github.com/WebAssembly/binaryen)  
+- **wasm-opt --print** | part of [`binaryen`](https://github.com/WebAssembly/binaryen)  
 
-- **wasm-objdump** | part of `wabt`: [repo](https://github.com/WebAssembly/wabt)  
+- **wasm-objdump** | part of [`wabt`](https://github.com/WebAssembly/wabt)  
 
 - **wasm-nm** | [repo](https://github.com/fitzgen/wasm-nm)  
 
@@ -26,7 +26,7 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 
 ## Manipulating (optimization, transformation, instrumentation)
 
-- **wasm-opt** | part of `binaryen`: [repo](https://github.com/WebAssembly/binaryen)  
+- **wasm-opt** | part of [`binaryen`](https://github.com/WebAssembly/binaryen)  
 
 - **wasm-snip** | [repo](https://github.com/rustwasm/wasm-snip)  
 `wasm-snip` replaces a WebAssembly function's body with an `unreachable`.

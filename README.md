@@ -8,8 +8,13 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 ## Inspecting
 
 - **WebAssembly Code Explorer** | [online tool](https://wasdk.github.io/wasmcodeexplorer/)  
+  A simple binary explorer with neat binary code highlighting.
 
-- **wasm-opt --print** | part of [`Binaryen`](https://github.com/WebAssembly/binaryen)  
+- **wasm-opt** | part of [`Binaryen`](https://github.com/WebAssembly/binaryen)  
+  - `wasm-opt --print test.wasm` - color output of s-expression format
+  - `wasm-opt --print-call-graph test.wasm | dot -Tpng -o callgraph.png` - plot the callgraph using `Graphviz`
+  - `wasm-opt --dwarfdump test.wasm` - dump DWARF debug info sections
+  - `wasm-opt --func-metrics test.wasm` - print function metrics
 
 - **wasm-decompile** | part of [`WABT`](https://github.com/WebAssembly/wabt), [article](https://v8.dev/blog/wasm-decompile)  
   `wasm-decompile` decompiles a wasm binary into readable code. It generates output that tries to look like a "very average programming language" while still staying close to the Wasm it represents.
@@ -35,18 +40,19 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 ## Manipulating (optimization, transformation, instrumentation)
 
 - **wasm-opt** | part of [`Binaryen`](https://github.com/WebAssembly/binaryen)  
+  - `wasm-opt test.wasm --asyncify -O3 -o asyncified.wasm`  
+    Transform binary for asynchronous execution. Read more in [this article](https://kripken.github.io/blog/wasm/2019/07/16/asyncify.html).
+  - `wasm-opt test.wasm --instrument-memory --instrument-locals --log-execution -o instrumetred.wasm`  
+    Instrument binary for dynamic execution tracing.
 
 - **wizer** | [repo](https://github.com/bytecodealliance/wizer)  
-  Don't wait for your Wasm module to initialize itself, pre-initialize it! Wizer instantiates your WebAssembly module, executes its initialization function, and then snapshots the initialized state out into a new WebAssembly module. 
+  Don't wait for your Wasm module to initialize itself, pre-initialize it! Wizer instantiates your WebAssembly module, executes its initialization function, and then snapshots the initialized state out into a new WebAssembly module.
 
 - **wasm-snip** | [repo](https://github.com/rustwasm/wasm-snip)  
 `wasm-snip` replaces a WebAssembly function's body with an `unreachable`.
 
 - **wasm-meter** | [npm](https://www.npmjs.org/package/wasm-metering), [repo](https://github.com/ewasm/wasm-metering)  
 Injects metering into webassembly binaries. The metering counts computation time for a given program in units of `gas`.
-
-- **walrus** | [repo](https://github.com/rustwasm/walrus)  
-A rust library for performing WebAssembly transformations.
 
 - **wasm2json, json2wasm** | [npm](https://www.npmjs.com/package/wasm-json-toolkit), [repo](https://github.com/ewasm/wasm-json-toolkit)  
 A small toolkit for converting wasm binaries into json and back. Very helpful for creating your own, custom transformations.
@@ -58,7 +64,7 @@ A small toolkit for converting wasm binaries into json and back. Very helpful fo
   Structured, seamless tracing of arbitrary WebAssembly/WASI execution.
 
 - **wasm-profiler** | [repo](https://github.com/dfinity/wasm-profiler)  
-  Instruction counting profiler for Wasm
+  Instruction counting profiler for Wasm.
 
 - **Wasabi** | [home](http://wasabi.software-lab.org/), [repo](https://github.com/danleh/wasabi)  
   "WebAssembly analysis using binary instrumentation", a dynamic analysis framework.

@@ -21,7 +21,7 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
     `wasm-opt --func-metrics test.wasm`
 
 - **wasm-decompile** | part of [`WABT`](https://github.com/WebAssembly/wabt), [article](https://v8.dev/blog/wasm-decompile)  
-  `wasm-decompile` decompiles a wasm binary into readable code. It generates output that tries to look like a "very average programming language" while still staying close to the Wasm it represents.
+  `wasm-decompile` decompiles a wasm binary into readable code. It generates output that tries to look like a "very average programming language" while still staying close to the wasm it represents.
 
 - **wasm-objdump** | part of [`WABT`](https://github.com/WebAssembly/wabt)  
   Print low-level details about a `.wasm` binary and each of its sections.
@@ -36,10 +36,11 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
   Code size profiler, analyzes a binary's call graph.
 
 - **Manticore** | [repo](https://github.com/trailofbits/manticore), [article](https://blog.trailofbits.com/2020/01/31/symbolically-executing-webassembly-in-manticore/)  
-  Symbolical execution of WebAssembly binaries.
+  Symbolic execution of WebAssembly binaries.
 
 - **wasm-opcodecnt** | part of [`WABT`](https://github.com/WebAssembly/wabt)  
-  
+  Count wasm opcode usage statistics.
+
 
 ## Manipulating (optimization, transformation, instrumentation)
 
@@ -56,13 +57,13 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 `wasm-snip` replaces a WebAssembly function's body with an `unreachable`.
 
 - **wasm-meter** | [npm](https://www.npmjs.org/package/wasm-metering), [repo](https://github.com/ewasm/wasm-metering)  
-Injects metering into webassembly binaries. The metering counts computation time for a given program in units of `gas`.
+Injects metering into webassembly binaries. This counts computation time for a given program in units of `gas` (and allows limiting it).
 
 - **wasm2json, json2wasm** | [npm](https://www.npmjs.com/package/wasm-json-toolkit), [repo](https://github.com/ewasm/wasm-json-toolkit)  
-A small toolkit for converting wasm binaries into json and back. Very helpful for creating your own, custom transformations.
+A small toolkit for converting wasm binaries into json and back. Very helpful for experimenting and creating your own transformations.
 
 
-## Dynamic analysis, profiling
+## Dynamic analysis (tracing, profiling)
 
 - **wasm3-trace** | [wapm](https://wapm.io/package/vshymanskyy/wasm3), [repo](https://github.com/wasm3/wasm3)  
   Structured, seamless tracing of arbitrary WebAssembly/WASI execution.
@@ -73,6 +74,11 @@ A small toolkit for converting wasm binaries into json and back. Very helpful fo
 - **Wasabi** | [home](http://wasabi.software-lab.org/), [repo](https://github.com/danleh/wasabi)  
   "WebAssembly analysis using binary instrumentation", a dynamic analysis framework.
 
+## Source-level debugging
+
+- **Chrome DevTools** | [article](https://developers.google.com/web/updates/2020/12/webassembly)
+
+- **LLDB** | [article](https://hacks.mozilla.org/2019/09/debugging-webassembly-outside-of-the-browser/)
 
 ## Other
 

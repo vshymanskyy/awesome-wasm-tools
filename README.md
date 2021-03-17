@@ -4,49 +4,51 @@ A collection of WebAssembly development tools.
 
 Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contribute.
 
+## Inspecting
+
+- **WebAssembly Code Explorer** | [online tool](https://wasdk.github.io/wasmcodeexplorer/)  
+
+- **wasm-opt --print** |  
+
+- **wasm-objdump** |  
+
+- **wasm-nm** |  
+
 
 ## Static analysis
 
-**Twiggy** |
+- **Twiggy** | [repo](https://github.com/rustwasm/twiggy)  
+  Code size profiler, analyzes a binary's call graph.
 
-**Manticore** | [github](https://github.com/trailofbits/manticore) | [getting started](https://blog.trailofbits.com/2020/01/31/symbolically-executing-webassembly-in-manticore/)
-
-Symbolical execution of WebAssembly (WASM) binaries.
-
-
-## Inspecting
-
-[**WebAssembly Code Explorer**](https://wasdk.github.io/wasmcodeexplorer/)
-
-**wasm-objdump**
-
-**wasm-nm**
-
-**wasm-opt --print**
+- **Manticore** | [repo](https://github.com/trailofbits/manticore), [article](https://blog.trailofbits.com/2020/01/31/symbolically-executing-webassembly-in-manticore/)  
+  Symbolical execution of WebAssembly (WASM) binaries.
 
 
 ## Manipulating (optimization, transformation, instrumentation)
 
-**wasm-opt**
+- **wasm-opt** |  
 
-**wasm-gc** 
+- **wasm-gc** |  
 
-**wasm-snip**
+- **wasm-snip** |  
 
-**wasm-meter**
+- **wasm-meter** |  
 
-**walrus** |
+- **walrus** |  
 A rust library for performing WebAssembly transformations.
 
-**wasm2json, json2wasm** | [npm](https://www.npmjs.com/package/wasm-json-toolkit), [repository](https://github.com/ewasm/wasm-json-toolkit)
+**wasm2json, json2wasm** | [npm](https://www.npmjs.com/package/wasm-json-toolkit), [repo](https://github.com/ewasm/wasm-json-toolkit)  
 
 
 ## Dynamic analysis, profiling
 
-- **wasm3-trace** | [wapm](https://wapm.io/package/vshymanskyy/wasm3), [repository](https://github.com/wasm3/wasm3)  
+- **wasm3-trace** | [wapm](https://wapm.io/package/vshymanskyy/wasm3), [repo](https://github.com/wasm3/wasm3)  
   Structured, seamless tracing of arbitrary WebAssembly/WASI execution.
 
-- **Wasabi** | [home](http://wasabi.software-lab.org/), [repository](https://github.com/danleh/wasabi)  
+- **wasm-profiler** | [repo](https://github.com/dfinity/wasm-profiler)  
+  Instruction counting profiler for Wasm
+
+- **Wasabi** | [home](http://wasabi.software-lab.org/), [repo](https://github.com/danleh/wasabi)  
   "WebAssembly analysis using binary instrumentation", a dynamic analysis framework.
 
 ## Other

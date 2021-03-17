@@ -11,10 +11,14 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
   A simple binary explorer with neat binary code highlighting.
 
 - **wasm-opt** | part of [`Binaryen`](https://github.com/WebAssembly/binaryen)  
-  - `wasm-opt --print test.wasm` - color output of s-expression format
-  - `wasm-opt --print-call-graph test.wasm | dot -Tpng -o callgraph.png` - plot the callgraph using `Graphviz`
-  - `wasm-opt --dwarfdump test.wasm` - dump DWARF debug info sections
-  - `wasm-opt --func-metrics test.wasm` - print function metrics
+  - `wasm-opt --print test.wasm`  
+    Color output of s-expression format.
+  - `wasm-opt --print-call-graph test.wasm | dot -Tpng -o callgraph.png`  
+    Plot the callgraph using `Graphviz`.
+  - `wasm-opt --dwarfdump test.wasm`  
+    Dump DWARF debug info sections.
+  - `wasm-opt --func-metrics test.wasm`  
+    Print function metrics.
 
 - **wasm-decompile** | part of [`WABT`](https://github.com/WebAssembly/wabt), [article](https://v8.dev/blog/wasm-decompile)  
   `wasm-decompile` decompiles a wasm binary into readable code. It generates output that tries to look like a "very average programming language" while still staying close to the Wasm it represents.

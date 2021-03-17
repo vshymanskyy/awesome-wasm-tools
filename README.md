@@ -1,6 +1,6 @@
 # Awesome WebAssembly Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A collection of WebAssembly development tools.
+A collection of useful, language-agnostic WebAssembly development tools.
 
 Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contribute.
 
@@ -10,6 +10,9 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 - **WebAssembly Code Explorer** | [online tool](https://wasdk.github.io/wasmcodeexplorer/)  
 
 - **wasm-opt --print** | part of [`Binaryen`](https://github.com/WebAssembly/binaryen)  
+
+- **wasm-decompile** | part of [`WABT`](https://github.com/WebAssembly/wabt), [article](https://v8.dev/blog/wasm-decompile)  
+  `wasm-decompile` decompiles a wasm binary into readable code. It generates output that tries to look like a "very average programming language" while still staying close to the Wasm it represents.
 
 - **wasm-objdump** | part of [`WABT`](https://github.com/WebAssembly/wabt)  
   Print low-level details about a `.wasm` binary and each of its sections.
@@ -26,6 +29,8 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 - **Manticore** | [repo](https://github.com/trailofbits/manticore), [article](https://blog.trailofbits.com/2020/01/31/symbolically-executing-webassembly-in-manticore/)  
   Symbolical execution of WebAssembly binaries.
 
+- **wasm-opcodecnt** | part of [`WABT`](https://github.com/WebAssembly/wabt)  
+  
 
 ## Manipulating (optimization, transformation, instrumentation)
 

@@ -22,6 +22,8 @@ Symbolical execution of WebAssembly (WASM) binaries.
 
 **wasm-nm**
 
+**wasm-opt --print**
+
 
 ## Manipulating (optimization, transformation, instrumentation)
 
@@ -30,6 +32,8 @@ Symbolical execution of WebAssembly (WASM) binaries.
 **wasm-gc** 
 
 **wasm-snip**
+
+**wasm-meter**
 
 **walrus** |
 A rust library for performing WebAssembly transformations.

@@ -54,31 +54,30 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
   Don't wait for your Wasm module to initialize itself, pre-initialize it! Wizer instantiates your WebAssembly module, executes its initialization function, and then snapshots the initialized state out into a new WebAssembly module.
 
 - **wasm-snip** | [repo](https://github.com/rustwasm/wasm-snip)  
-`wasm-snip` replaces a WebAssembly function's body with an `unreachable`.
+  Replaces a WebAssembly function's body with an `unreachable`.
 
 - **wasm-meter** | [npm](https://www.npmjs.org/package/wasm-metering), [repo](https://github.com/ewasm/wasm-metering)  
-Injects metering into webassembly binaries. This counts computation time for a given program in units of `gas` (and allows limiting it).
+  Injects metering into webassembly binaries. This counts computation time for a given program in units of `gas` (and allows limiting it).
 
 - **wasm2json, json2wasm** | [npm](https://www.npmjs.com/package/wasm-json-toolkit), [repo](https://github.com/ewasm/wasm-json-toolkit)  
-A small toolkit for converting wasm binaries into json and back. Very helpful for experimenting and creating your own transformations.
+  A small toolkit for converting wasm binaries into json and back. Very helpful for experimenting and creating your own transformations.
 
 
 ## Dynamic analysis (tracing, profiling)
 
-- **wasm3-trace** | [wapm](https://wapm.io/package/vshymanskyy/wasm3), [repo](https://github.com/wasm3/wasm3)  
+- **wasm3-strace** | [wapm](https://wapm.io/package/vshymanskyy/wasm3), [repo](https://github.com/wasm3/wasm3)  
   Structured, seamless tracing of arbitrary WebAssembly/WASI execution.
-
-- **wasm-profiler** | [repo](https://github.com/dfinity/wasm-profiler)  
-  Instruction counting profiler for Wasm.
 
 - **Wasabi** | [home](http://wasabi.software-lab.org/), [repo](https://github.com/danleh/wasabi)  
   "WebAssembly analysis using binary instrumentation", a dynamic analysis framework.
+
 
 ## Source-level debugging
 
 - **Chrome DevTools** | [article](https://developers.google.com/web/updates/2020/12/webassembly)
 
 - **LLDB** | [article](https://hacks.mozilla.org/2019/09/debugging-webassembly-outside-of-the-browser/)
+
 
 ## Other
 

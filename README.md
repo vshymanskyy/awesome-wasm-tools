@@ -4,15 +4,18 @@ A collection of WebAssembly development tools.
 
 Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contribute.
 
+
 ## Inspecting
 
 - **WebAssembly Code Explorer** | [online tool](https://wasdk.github.io/wasmcodeexplorer/)  
 
-- **wasm-opt --print** | part of [`binaryen`](https://github.com/WebAssembly/binaryen)  
+- **wasm-opt --print** | part of [`Binaryen`](https://github.com/WebAssembly/binaryen)  
 
-- **wasm-objdump** | part of [`wabt`](https://github.com/WebAssembly/wabt)  
+- **wasm-objdump** | part of [`WABT`](https://github.com/WebAssembly/wabt)  
+  Print low-level details about a `.wasm` binary and each of its sections.
 
 - **wasm-nm** | [repo](https://github.com/fitzgen/wasm-nm)  
+  List the imported, exported, and private function symbols defined within a `.wasm` binary.
 
 
 ## Static analysis
@@ -21,12 +24,12 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
   Code size profiler, analyzes a binary's call graph.
 
 - **Manticore** | [repo](https://github.com/trailofbits/manticore), [article](https://blog.trailofbits.com/2020/01/31/symbolically-executing-webassembly-in-manticore/)  
-  Symbolical execution of WebAssembly (WASM) binaries.
+  Symbolical execution of WebAssembly binaries.
 
 
 ## Manipulating (optimization, transformation, instrumentation)
 
-- **wasm-opt** | part of [`binaryen`](https://github.com/WebAssembly/binaryen)  
+- **wasm-opt** | part of [`Binaryen`](https://github.com/WebAssembly/binaryen)  
 
 - **wasm-snip** | [repo](https://github.com/rustwasm/wasm-snip)  
 `wasm-snip` replaces a WebAssembly function's body with an `unreachable`.
@@ -40,6 +43,7 @@ A rust library for performing WebAssembly transformations.
 - **wasm2json, json2wasm** | [npm](https://www.npmjs.com/package/wasm-json-toolkit), [repo](https://github.com/ewasm/wasm-json-toolkit)  
 A small toolkit for converting wasm binaries into json and back. Very helpful for creating your own, custom transformations.
 
+
 ## Dynamic analysis, profiling
 
 - **wasm3-trace** | [wapm](https://wapm.io/package/vshymanskyy/wasm3), [repo](https://github.com/wasm3/wasm3)  
@@ -50,6 +54,7 @@ A small toolkit for converting wasm binaries into json and back. Very helpful fo
 
 - **Wasabi** | [home](http://wasabi.software-lab.org/), [repo](https://github.com/danleh/wasabi)  
   "WebAssembly analysis using binary instrumentation", a dynamic analysis framework.
+
 
 ## Other
 

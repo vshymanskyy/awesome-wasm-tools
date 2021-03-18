@@ -2,7 +2,7 @@
 
 A collection of useful, language-agnostic WebAssembly development tools.
 
-Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contribute.
+👉 Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md). 😎
 
 
 ## Inspecting

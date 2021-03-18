@@ -104,6 +104,9 @@ A collection of useful, language-agnostic WebAssembly development tools.
 - **Binaryen.js** | [repo](https://github.com/AssemblyScript/binaryen.js)  
   A port of Binaryen to the Web, allowing you to generate WebAssembly using JavaScript.
 
+- **wasm-tools** | [repo](https://github.com/bytecodealliance/wasm-tools)  
+  Rust tooling for low-level manipulation of WebAssembly modules. `wasm-smith` test case generator is of particular interest.
+
 
 ## Other
 

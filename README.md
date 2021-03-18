@@ -89,6 +89,9 @@ A collection of useful, language-agnostic WebAssembly development tools.
 
 ## Tool development
 
+- **Tool Conventions** | [docs](https://github.com/WebAssembly/tool-conventions)  
+  Documents describing conventions useful for coordinating interoperability between wasm-related tools.
+
 - **wasm2json, json2wasm** | [npm](https://www.npmjs.com/package/wasm-json-toolkit), [repo](https://github.com/ewasm/wasm-json-toolkit)  
   A small toolkit for converting wasm binaries into json and back. Incredibly helpful for experimenting and creating your own transformations.
 
@@ -103,8 +106,6 @@ A collection of useful, language-agnostic WebAssembly development tools.
 
 
 ## Other
-
-- **WebAssembly Tool Conventions** | [docs](https://github.com/WebAssembly/tool-conventions)
 
 - **WebAssembly Opcode Table** | [docs](https://pengowray.github.io/wasm-ops/)  
 

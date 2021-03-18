@@ -68,8 +68,6 @@ A collection of useful, language-agnostic WebAssembly development tools.
 - **wasm-meter** | [npm](https://www.npmjs.org/package/wasm-metering), [repo](https://github.com/ewasm/wasm-metering)  
   Injects metering into webassembly binaries. This counts computation time for a given program in units of `gas` (and allows limiting it).
 
-- **wasm2json, json2wasm** | [npm](https://www.npmjs.com/package/wasm-json-toolkit), [repo](https://github.com/ewasm/wasm-json-toolkit)  
-  A small toolkit for converting wasm binaries into json and back. Very helpful for experimenting and creating your own transformations.
 
 ## Dynamic analysis (tracing, profiling)
 
@@ -87,6 +85,21 @@ A collection of useful, language-agnostic WebAssembly development tools.
 - **Chrome DevTools** | [article](https://developers.google.com/web/updates/2020/12/webassembly)
 
 - **LLDB** | [article](https://hacks.mozilla.org/2019/09/debugging-webassembly-outside-of-the-browser/)
+
+
+## Tool development
+
+- **wasm2json, json2wasm** | [npm](https://www.npmjs.com/package/wasm-json-toolkit), [repo](https://github.com/ewasm/wasm-json-toolkit)  
+  A small toolkit for converting wasm binaries into json and back. Incredibly helpful for experimenting and creating your own transformations.
+
+- **walrus** | [repo](https://github.com/rustwasm/walrus)  
+  Rust library for performing WebAssembly transformations in a robust and ergonomic fashion.
+
+- **wasp** | [repo](https://github.com/WebAssembly/wasp)  
+  C++ library designed to make it easy to work with WebAssembly modules.
+
+- **Binaryen.js** | [repo](https://github.com/AssemblyScript/binaryen.js)  
+  A port of Binaryen to the Web, allowing you to generate WebAssembly using JavaScript.
 
 
 ## Other

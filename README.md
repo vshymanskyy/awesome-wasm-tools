@@ -23,6 +23,9 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 - **wasm-decompile** | part of [`WABT`](https://github.com/WebAssembly/wabt), [article](https://v8.dev/blog/wasm-decompile)  
   `wasm-decompile` decompiles a wasm binary into readable code. It generates output that tries to look like a "very average programming language" while still staying close to the wasm it represents.
 
+- **wasmdec** | [repo](https://github.com/wwwg/wasmdec), [online tool](https://wwwg.github.io/web-wasmdec/)  
+  Converts WebAssembly binaries to C. Similar to `wasm2c`.
+
 - **wasp** | [repo](https://github.com/WebAssembly/wasp)  
   Generate callgraphs, CFG and DFG graphs for wasm functions.
 
@@ -40,6 +43,9 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 
 - **Manticore** | [repo](https://github.com/trailofbits/manticore), [article](https://blog.trailofbits.com/2020/01/31/symbolically-executing-webassembly-in-manticore/)  
   Symbolic execution of WebAssembly binaries.
+  
+- **Octopus** | [repo](https://github.com/pventuzelo/octopus)  
+  Security analysis framework for WebAssembly modules and Smart Contracts.
 
 - **wasm-opcodecnt** | part of [`WABT`](https://github.com/WebAssembly/wabt)  
   Count wasm opcode usage statistics.
@@ -65,7 +71,6 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 - **wasm2json, json2wasm** | [npm](https://www.npmjs.com/package/wasm-json-toolkit), [repo](https://github.com/ewasm/wasm-json-toolkit)  
   A small toolkit for converting wasm binaries into json and back. Very helpful for experimenting and creating your own transformations.
 
-
 ## Dynamic analysis (tracing, profiling)
 
 - **wasm3-strace** | [wapm](https://wapm.io/package/vshymanskyy/wasm3), [repo](https://github.com/wasm3/wasm3)  
@@ -86,6 +91,10 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 
 ## Other
 
-- **WebAssembly Opcode Table** | [online tool](https://pengowray.github.io/wasm-ops/)  
+- **WebAssembly Tool Conventions** | [docs](https://github.com/WebAssembly/tool-conventions)
+
+- **WebAssembly Opcode Table** | [docs](https://pengowray.github.io/wasm-ops/)  
+
+- **WebAssembly Studio** | [online tool](https://webassembly.studio/)  
 
 - **Webassembly.sh** | [online tool](https://webassembly.sh)  

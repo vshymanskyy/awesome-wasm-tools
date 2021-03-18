@@ -46,6 +46,9 @@ A collection of useful, language-agnostic WebAssembly development tools.
   
 - **Octopus** | [repo](https://github.com/pventuzelo/octopus)  
   Security analysis framework for WebAssembly modules and Smart Contracts.
+  
+- **Wassail** | [repo](https://github.com/acieroid/wassail)  
+  A toolkit to perform both lightweight and heavyweight static analysis of WebAssembly modules.
 
 - **wasm-opcodecnt** | part of [`WABT`](https://github.com/WebAssembly/wabt)  
   Count wasm opcode usage statistics.

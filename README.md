@@ -23,6 +23,9 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 - **wasm-decompile** | part of [`WABT`](https://github.com/WebAssembly/wabt), [article](https://v8.dev/blog/wasm-decompile)  
   `wasm-decompile` decompiles a wasm binary into readable code. It generates output that tries to look like a "very average programming language" while still staying close to the wasm it represents.
 
+- **wasp** | [repo](https://github.com/WebAssembly/wasp)  
+  Generate callgraphs, CFG and DFG graphs for wasm functions.
+
 - **wasm-objdump** | part of [`WABT`](https://github.com/WebAssembly/wabt)  
   Print low-level details about a `.wasm` binary and each of its sections.
 
@@ -71,6 +74,8 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 - **Wasabi** | [home](http://wasabi.software-lab.org/), [repo](https://github.com/danleh/wasabi)  
   "WebAssembly analysis using binary instrumentation", a dynamic analysis framework.
 
+- **wasmsign** | [repo](https://github.com/jedisct1/wasmsign)  
+  A tool to add and verify digital signatures to/from WASM binaries.
 
 ## Source-level debugging
 

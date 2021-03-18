@@ -65,6 +65,9 @@ A collection of useful, language-agnostic WebAssembly development tools.
 - **wasm-snip** | [repo](https://github.com/rustwasm/wasm-snip)  
   Replaces a WebAssembly function's body with an `unreachable`.
 
+- **wasmonkey** | [repo](https://github.com/jedisct1/wasmonkey)  
+  Magically turns exported WASM functions into imported functions.
+
 - **wasm-meter** | [npm](https://www.npmjs.org/package/wasm-metering), [repo](https://github.com/ewasm/wasm-metering)  
   Injects metering into webassembly binaries. This counts computation time for a given program in units of `gas` (and allows limiting it).
 

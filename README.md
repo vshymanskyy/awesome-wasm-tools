@@ -92,6 +92,9 @@ A collection of useful, language-agnostic WebAssembly development tools.
 
 - **LLDB** | [article](https://hacks.mozilla.org/2019/09/debugging-webassembly-outside-of-the-browser/)
 
+- **wasminspect** | [repo](https://github.com/kateinoigakukun/wasminspect)
+  An interactive debugger for WebAssembly like lldb. It can be used for WebAssembly code and WASI applications also.
+
 
 ## Tool development
 

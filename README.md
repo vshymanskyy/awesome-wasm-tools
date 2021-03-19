@@ -2,7 +2,10 @@
 
 A collection of useful, language-agnostic WebAssembly development tools.
 
-<img height="100" src="/images/code-explorer.png"> <img height="100" src="/images/wasm-opt-callgraph.svg"> <img height="100" src="/images/wasm3-strace.png"> <img height="100" src="/images/chrome-dev-tools.png">
+[<img height="100" src="/images/code-explorer.png">](https://raw.githubusercontent.com/vshymanskyy/awesome-wasm-tools/main/images/code-explorer.png)
+[<img height="100" src="/images/wasm-opt-callgraph.svg">](https://raw.githubusercontent.com/vshymanskyy/awesome-wasm-tools/main/images/wasm-opt-callgraph.svg)
+[<img height="100" src="/images/wasm3-strace.png">](https://raw.githubusercontent.com/vshymanskyy/awesome-wasm-tools/main/images/wasm3-strace.png)
+[<img height="100" src="/images/chrome-dev-tools.png">](https://raw.githubusercontent.com/vshymanskyy/awesome-wasm-tools/main/images/chrome-dev-tools.png)
 
 👉 Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md). 😎
 

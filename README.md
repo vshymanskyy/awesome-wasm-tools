@@ -79,6 +79,9 @@ A collection of useful, language-agnostic WebAssembly development tools.
 - **wasm-meter** | [npm](https://www.npmjs.org/package/wasm-metering), [repo](https://github.com/ewasm/wasm-metering)  
   Injects metering into webassembly binaries. This counts computation time for a given program in units of `gas` (and allows limiting it).
 
+- **CROW** | [repo](https://github.com/KTH/slumps/tree/master/crow)
+  The Wasm superdiversifier, CROW, takes C source codes or LLVM bitcodes as input and generates several functionally equivalent and diverse Wasm variants.  
+
 
 ## Dynamic analysis (tracing, profiling)
 

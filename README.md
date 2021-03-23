@@ -80,7 +80,7 @@ A collection of useful, language-agnostic WebAssembly development tools.
   Injects metering into webassembly binaries. This counts computation time for a given program in units of `gas` (and allows limiting it).
 
 - **CROW** | [repo](https://github.com/KTH/slumps/tree/master/crow)  
-  The Wasm superdiversifier, CROW, takes C source codes or LLVM bitcodes as input and generates several functionally equivalent and diverse Wasm variants.  
+  The Wasm superdiversifier. It takes C source code or LLVM bitcode as input and generates several functionally equivalent, but diverse Wasm binaries.  
 
 
 ## Dynamic analysis (tracing, profiling)

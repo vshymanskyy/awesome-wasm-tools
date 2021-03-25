@@ -94,6 +94,9 @@ A collection of useful, language-agnostic WebAssembly development tools.
 - **wasmsign** | [repo](https://github.com/jedisct1/wasmsign)  
   A tool to add and verify digital signatures to/from WASM binaries.
 
+- **swam** | [repo](https://github.com/satabin/swam/)  
+  A WASM interpreter with advanced tracing capabilities.
+
 ## Source-level debugging
 
 - **Chrome DevTools** | [article](https://developers.google.com/web/updates/2020/12/webassembly)

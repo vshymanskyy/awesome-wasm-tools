@@ -130,6 +130,9 @@ A collection of useful, language-agnostic WebAssembly development tools.
 - **wasm-debug** | [repo](https://github.com/wasmerio/wasm-debug), [crate](https://crates.io/crates/wasm-debug)  
   A runtime-independent Rust library that provides functionality to read, transform, and write DWARF section.
 
+- **Articles**
+  - [Fuzzers & Reducers as Productivity Tools](https://kripken.github.io/blog/binaryen/2019/06/11/fuzz-reduce-productivity.html)
+
 
 ## Other
 

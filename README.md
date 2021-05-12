@@ -70,6 +70,11 @@ A collection of useful, language-agnostic WebAssembly development tools.
 - **wizer** | [repo](https://github.com/bytecodealliance/wizer)  
   Don't wait for your Wasm module to initialize itself, pre-initialize it! Wizer instantiates your WebAssembly module, executes its initialization function, and then snapshots the initialized state out into a new WebAssembly module.
 
+- **wasm2c** | part of [`WABT`](https://github.com/WebAssembly/wabt/blob/main/wasm2c/README.md), 
+[article 1](https://kripken.github.io/blog/wasm/2020/07/27/wasmboxc.html), 
+[article 2](https://petersalomonsen.com/articles/wasm2c/wasm2c.html)  
+  Takes a WebAssembly module and produces an equivalent (and runnable) C source and header.
+  
 - **wasm-snip** | [repo](https://github.com/rustwasm/wasm-snip)  
   Replaces a WebAssembly function's body with an `unreachable`.
 

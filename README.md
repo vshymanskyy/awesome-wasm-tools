@@ -130,7 +130,9 @@ A collection of useful, language-agnostic WebAssembly development tools.
   A port of Binaryen to the Web, allowing you to generate WebAssembly using JavaScript.
 
 - **wasm-tools** | [repo](https://github.com/bytecodealliance/wasm-tools)  
-  Rust tooling for low-level manipulation of WebAssembly modules. `wasm-smith` test case generator is of particular interest.
+  Rust tooling for low-level manipulation of WebAssembly modules.  
+    `wasm-smith` test case generator is of particular interest.  
+    `wasm-shrink` shrinks a Wasm file while preserving an interesting property (such as triggering a bug).
 
 - **wasm-debug** | [repo](https://github.com/wasmerio/wasm-debug), [crate](https://crates.io/crates/wasm-debug)  
   A runtime-independent Rust library that provides functionality to read, transform, and write DWARF section.

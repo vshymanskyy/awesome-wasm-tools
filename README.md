@@ -1,3 +1,5 @@
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)
+
 # Awesome WebAssembly Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A collection of useful, language-agnostic WebAssembly development tools.

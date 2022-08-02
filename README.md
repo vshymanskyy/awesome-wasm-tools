@@ -150,6 +150,4 @@ A collection of useful, language-agnostic WebAssembly development tools.
 
 - **WebAssembly Opcode Table** | [docs](https://pengowray.github.io/wasm-ops/)  
 
-- **WebAssembly Studio** | [online tool](https://webassembly.studio/)  
-
 - **Webassembly.sh** | [online tool](https://webassembly.sh)  

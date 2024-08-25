@@ -17,7 +17,7 @@ A collection of useful, language-agnostic WebAssembly development tools.
 - **WebAssembly Code Explorer** | [online tool](https://wasdk.github.io/wasmcodeexplorer/)  
   A simple binary explorer with neat binary code highlighting.
 
-- **Weave** | [online tool](https://evmar.github.io/weave)
+- **Weave** | [online tool](https://evmar.github.io/weave)  
   Another simple binary explorer.
 
 - **wasm-opt** | part of [`Binaryen`](https://github.com/WebAssembly/binaryen)  

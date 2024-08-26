@@ -101,7 +101,7 @@ A collection of useful, language-agnostic WebAssembly development tools.
 - **Wasabi** | [home](http://wasabi.software-lab.org/), [repo](https://github.com/danleh/wasabi)  
   "WebAssembly analysis using binary instrumentation", a dynamic analysis framework.
 
-- **wasmsign** | [repo](https://github.com/jedisct1/wasmsign)  
+- **wasmsign2** | [repo](https://github.com/wasm-signatures/wasmsign2)  
   A tool to add and verify digital signatures to/from WASM binaries.
 
 - **swam** | [repo](https://github.com/satabin/swam/)  

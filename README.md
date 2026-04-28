@@ -9,7 +9,7 @@ A collection of useful, language-agnostic WebAssembly development tools.
 [<img height="100" src="/images/wasm3-strace.png">](https://raw.githubusercontent.com/vshymanskyy/awesome-wasm-tools/main/images/wasm3-strace.png)
 [<img height="100" src="/images/chrome-dev-tools.png">](https://raw.githubusercontent.com/vshymanskyy/awesome-wasm-tools/main/images/chrome-dev-tools.png)
 
-👉 Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md). 😎
+ð Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md). ð
 
 
 ## Inspecting
@@ -150,5 +150,6 @@ A collection of useful, language-agnostic WebAssembly development tools.
 
 
 ## Other
+- [Remove Audio](https://remove-audio.com) - Browser tool that strips audio from video files using FFmpeg.wasm. No server, no uploads. Batch up to 20 clips. Real-world WebAssembly in production.
 
 - **WebAssembly Opcode Table** | [docs](https://pengowray.github.io/wasm-ops/)  

@@ -151,4 +151,4 @@ A collection of useful, language-agnostic WebAssembly development tools.
 
 ## Other
 
-- **WebAssembly Opcode Table** | [docs](https://pengowray.github.io/wasm-ops/)  
+- **WebAssembly Opcode Table** | [docs](https://wasm-chart.pengowray.com/)

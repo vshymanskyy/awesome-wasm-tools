@@ -16,5 +16,5 @@ jobs:
 
     - name: Spellcheck
       run: |
-        codespell --ignore-words-list="crate"
+        codespell --ignore-words-list="crate,WIT"
         echo "Spellcheck complete"

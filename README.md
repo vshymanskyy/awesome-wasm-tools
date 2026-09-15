@@ -123,6 +123,9 @@ A collection of useful, language-agnostic WebAssembly development tools.
 - **WASI-Virt** | [repo](https://github.com/bytecodealliance/WASI-Virt)  
   Virtualization component generator for WASI Preview 2 APIs, useful for encapsulating or restricting component access to host capabilities.
 
+- **wit-breaking** | [repo](https://github.com/jayblast-spec/wit-breaking), [npm](https://www.npmjs.com/package/wit-breaking)  
+  Detects breaking changes between two versions of a WIT interface -- the equivalent of `buf breaking` (protobuf) or `oasdiff` (OpenAPI), for WIT. Classifies each interface/function change as breaking or safe; ships as both a CLI and a GitHub Action.
+
 
 ## Dynamic analysis (tracing, profiling)
 

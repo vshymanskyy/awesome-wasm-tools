@@ -138,6 +138,9 @@ A collection of useful, language-agnostic WebAssembly development tools.
 - **swam** | [repo](https://github.com/satabin/swam/)  
   A WASM interpreter with advanced tracing capabilities.
 
+- **appfuzz** | [home](https://appfuzz.dev), [repo](https://github.com/StephanSchmidt/appfuzz)  
+  Fuzzes WebAssembly components and modules (wasi:http, Spin, Fastly Compute, Extism) against simulated host functions and reports crashes, hangs, n+1 calls, injection and data leaks, with an exit code for CI.
+
 ## Editing
 
 - **wasm-language-tools** | [home](https://wasm-language-tools.netlify.app/), [repo](https://github.com/g-plane/wasm-language-tools)  

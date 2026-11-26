@@ -223,6 +223,9 @@ A collection of useful, language-agnostic WebAssembly development tools.
 
 ## Other
 
+- **AIAC SoundCraft** | [app](https://aiac.app/soundcraft/)  
+  Zero-upload 120 FPS multitrack browser DAW & ITU-R BS.1770-4 LUFS DSP studio compiled from Rust to WebAssembly.
+
 - **WebAssembly Opcode Table** | [docs](https://wasm-chart.pengowray.com/)
 
 - **WebAssembly Feature Status** | [docs](https://webassembly.org/features/)  
